@@ -9,10 +9,9 @@
     padding: 10px 20px;
   }
   .header-container {
-    justify-content: start !important;
-    padding-top: 6em !important;
-    padding-left: 1em !important;
-    padding-right: 1em !important;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5px ;
     font-size: medium;
   }
 
@@ -28,8 +27,8 @@
   }
   .header-container p {
     font-size: 22px !important;
-    line-height: 1.5 !important;
-    padding: 0 3px !important;
+    /* line-height: 1.5 !important; */
+    padding: 0 5px !important;
   }
 
   /* MUSIC SECTION  */
@@ -41,7 +40,7 @@
     font-size: 15px;
   padding: 0 5px !important;
   }
-  .paragraph2 {
+  .paragraph-2 {
     font-size: 15px;
   padding: 0 5px !important;
     
@@ -53,12 +52,13 @@
     font-size: 18px;
   }
   .music-container a {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 12px;
   }
 
   /* VIDEO SECTION */
   .video-container {
+    font-size: 15px;
     padding: 0 3px !important;
   }
 
@@ -70,14 +70,14 @@
     padding: 0 3px !important;
   }
   .video-container a {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 12px;
   }
 
   /* ENTERTAINMENT   */
 
   .entertainment-container h3 {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   /* GIFT-CARD SECTION  */
@@ -88,11 +88,9 @@
   }
   .giftcard-container p {
     font-size: 15px;
-    padding: 0 20px !important;
+    padding: 0 5px !important;
   }
-  .giftcard-container {
-    height: auto;
-  }
+  
   .giftcard-container h2 {
     font-size: 20px;
     padding: 0 20px;
