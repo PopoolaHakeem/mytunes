@@ -39,7 +39,12 @@
   }
   .paragraph {
     font-size: 15px;
-    padding: 0 3px;
+  padding: 0 5px !important;
+  }
+  .paragraph2 {
+    font-size: 15px;
+  padding: 0 5px !important;
+    
   }
   .music-container h2 {
     font-size: 20px;
@@ -53,13 +58,16 @@
   }
 
   /* VIDEO SECTION */
+  .video-container {
+    padding: 0 3px !important;
+  }
 
   .video-container h3 {
     font-size: 18px;
   }
   .video-container p {
     font-size: 15px;
-    /* padding: 0 3px; */
+    padding: 0 3px !important;
   }
   .video-container a {
     font-size: 12px;
@@ -90,7 +98,8 @@
     padding: 0 20px;
   }
   .giftcard-container a {
-    padding: 0 20px;
+    font-size: 15px;
+    padding: 10px 20px;
   }
 
   /* FOOTER SECTION  */
