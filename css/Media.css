@@ -11,9 +11,8 @@
     display: flex !important;
     justify-content: center;
     position: absolute;
-    right: 2px;
-    width: 80px;
-    height: 20px;
+    right: 10px;
+    font-size: 50px;
     color: #f4f4f4;
     cursor: pointer;
 }
