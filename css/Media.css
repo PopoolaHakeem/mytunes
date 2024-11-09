@@ -1,6 +1,10 @@
 /*mobile screen */
 
 @media only screen and (max-width: 600px) {
+  .nav-bar {
+    display: none !important;
+  }
+
   .nav-bar-list {
     font-size: 15px;
     display: none !important;
