@@ -1,190 +1,177 @@
-/*mobile screen */    
+/*mobile screen */
 
-@media only screen and (max-width:600px){
-    
-    .nav-bar-list {
-        font-size: 15px;
-        display: none !important;
-    }
-    .nav-bar-list a {
-        padding: 10px 20px;
-    }
-    .header-container{
-        justify-content: start !important;
-        padding-top: 6em !important;
-        padding-left: 1em !important;
-        padding-right: 1em !important;
-        font-size: medium;
-        
-    }
-    
+@media only screen and (max-width: 600px) {
+  .nav-bar-list {
+    font-size: 15px;
+    display: none !important;
+  }
+  .nav-bar-list a {
+    padding: 10px 20px;
+  }
+  .header-container {
+    justify-content: start !important;
+    padding-top: 6em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    font-size: medium;
+  }
 
-    .header-container h1{
-        text-transform: capitalize;
-        font-size: 30px;
-    }
-    .header-container h2{
-        text-overflow: clip !important;
-        font-size: 30px !important;
-        padding: 15px 0 15px 0 !important;
-        line-height: 40px;
+  .header-container h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+  }
+  .header-container h2 {
+    text-overflow: clip !important;
+    font-size: 30px !important;
+    padding: 15px 0 15px 0 !important;
+    line-height: 40px;
+  }
+  .header-container p {
+    font-size: 22px !important;
+    line-height: 1.5 !important;
+    padding: 0 3px !important;
+  }
 
-    }
-    .header-container p{
-        font-size: 22px !important;
-        line-height: 1.5 !important;
-    }
+  /* MUSIC SECTION  */
 
+  .music-container {
+    font-size: 13px;
+  }
+  .paragraph {
+    font-size: 15px;
+    padding: 0 3px;
+  }
+  .music-container h2 {
+    font-size: 20px;
+  }
+  .music-container h3 {
+    font-size: 18px;
+  }
+  .music-container a {
+    font-size: 12px;
+    padding: 10px;
+  }
 
-/* MUSIC SECTION  */ 
+  /* VIDEO SECTION */
 
-    
-    .music-container {
-        font-size: 13px;
-    }
-    .paragraph {
-        font-size: 15px;
-    }
-    .music-container h2 {
-        font-size: 20px;
-    }
-    .music-container h3 {
-        font-size: 18px;
-    }
-    .music-container a {
-        font-size: 12px;
-        padding: 10px;
-    }
+  .video-container h3 {
+    font-size: 18px;
+  }
+  .video-container p {
+    font-size: 15px;
+    /* padding: 0 3px; */
+  }
+  .video-container a {
+    font-size: 12px;
+    padding: 10px;
+  }
 
+  /* ENTERTAINMENT   */
 
-/* VIDEO SECTION */
+  .entertainment-container h3 {
+    font-size: 18px;
+  }
 
+  /* GIFT-CARD SECTION  */
 
-    .video-container h3 {
-        font-size: 18px;
-    }
-    .video-container p {
-        font-size: 15px;
-    }
-    .video-container a {
-        font-size: 12px;
-        padding: 10px;
-    }
+  .giftcard-container {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .giftcard-container p {
+    font-size: 15px;
+    padding: 0 20px !important;
+  }
+  .giftcard-container {
+    height: auto;
+  }
+  .giftcard-container h2 {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  .giftcard-container a {
+    padding: 0 20px;
+  }
 
+  /* FOOTER SECTION  */
 
-   /* ENTERTAINMENT   */
+  .parent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1px;
+  }
+  li {
+    font-size: 13px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
 
- 
-    .entertainment-container h3 {
-        font-size: 18px;
-    }
+@media only screen and(min-width:601px) and (max-width: 1024px) {
+  .header-container h1 {
+    font-size: 40px;
+  }
+  .header-container h2 {
+    font-size: 28px;
+  }
+  .header-container p {
+    font-size: 19px;
+  }
 
+  /* MUSIC-CONTAINER  */
 
-/* GIFT-CARD SECTION  */
+  .music-container h2 {
+    font-size: 28px;
+  }
+  .music-container h3 {
+    font-size: 24px;
+  }
+  .music-container p {
+    font-size: 19px;
+  }
+  .music-container a {
+    font-size: 13px;
+    padding: 13px;
+  }
 
-        
-        .giftcard-container, img {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .giftcard-container p {
-            font-size: 15px;
-        }
-        .giftcard-container {
-            height: auto;
-        }
-        .giftcard-container h2 {
-            font-size: 20px;
-        }
+  /* VIDEO-SECTION */
 
+  .video-container h3 {
+    font-size: 24px;
+  }
+  .video-container p {
+    font-size: 19px;
+  }
+  .video-container a {
+    font-size: 14px;
+    padding: 14px;
+  }
 
+  /* ENTERTAINMENT-SECTION */
 
-    /* FOOTER SECTION  */
+  .entertainment-container h3 {
+    font-size: 24px;
+  }
+  .entertainment-container p {
+    font-size: 19px;
+  }
 
-     
-        .parent {
-            display: flex;
-            flex-direction: column;
-            font-size: 1px;
-        }
-        li {
-            font-size: 13px;
-            
-        }
-        .footer-bottom {
-            font-size: 12px;
-        }   
-    }
+  /* GIFTCARD-SECTION */
 
-    @media only screen and(min-width:601px)and (max-width:1024px) {
-        .header-container h1 {
-            font-size: 40px;
-        }
-        .header-container h2 {
-            font-size: 28px;
-        }
-        .header-container p {
-            font-size: 19px;
-        }
-    
+  .giftcard-container h2 {
+    font-size: 28px;
+  }
+  .giftcard-container p {
+    font-size: 19px;
+  }
+  .giftcard-container a {
+    font-size: 15px;
+  }
 
+  /* FOOTER-SECTION */
 
-    /* MUSIC-CONTAINER  */
-
-        .music-container h2{
-            font-size: 28px;
-        }
-        .music-container h3 {
-            font-size: 24px;
-        }
-        .music-container p {
-            font-size: 19px;
-        }
-        .music-container a {
-            font-size: 13px;
-            padding: 13px;
-        }
-
-        /* VIDEO-SECTION */
-
-        .video-container h3 {
-            font-size: 24px;
-        }
-        .video-container p {
-            font-size: 19px;
-        }
-        .video-container a {
-            font-size: 14px;
-            padding: 14px;
-        }
-
-        /* ENTERTAINMENT-SECTION */
-
-        .entertainment-container h3 {
-            font-size: 24px;
-        }
-        .entertainment-container p {
-            font-size: 19px;
-        }
-
-        /* GIFTCARD-SECTION */
-
-        .giftcard-container h2 {
-            font-size: 28px;
-        }
-        .giftcard-container p {
-            font-size: 19px;
-        }
-        .giftcard-container a {
-            font-size: 15px;
-        }
-
-        /* FOOTER-SECTION */
-
-        /* .parent {
+  /* .parent {
             display: flex;
         } */
-
-    }
+}
