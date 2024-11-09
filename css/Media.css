@@ -2,8 +2,23 @@
 
 @media only screen and (max-width: 600px) {
   .nav-bar {
-    display: none !important;
+    display: none ;
+    background-color: unset !important;
+
   }
+  
+  .menu-icon {
+    display: flex !important;
+    justify-content: center;
+    position: absolute;
+    right: 2px;
+    width: 80px;
+    height: 20px;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+  
 
   .nav-bar-list {
     font-size: 15px;
