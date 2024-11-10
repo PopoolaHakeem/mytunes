@@ -48,17 +48,6 @@ body div {
   line-height: 1.7;
 }
 
-/* .list-container {
-    display: list-item;
-    list-style-type: disc;
-    justify-content: center;
-    display: block;
-    background-position: center;
-    background-size: cover;
-    padding: 0px;
-    margin: 0px;
-} */
-
 a {
   color: blue;
   text-decoration: none;
@@ -215,6 +204,9 @@ img {
   width: 100%;
   text-align: left;
 }
+.greater-than {
+  font-size: 12px;
+}
 
 /* FOOTER SECTION */
 
@@ -246,6 +238,10 @@ footer a {
   padding: 25px 0;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .nav-bar {
   background-color: #333333;
   position: fixed;
@@ -270,9 +266,3 @@ footer a {
 .nav-bar-list a:hover {
   background-color: #b90415;
 }
-
-/* MEDIA QUERIES */
-
-/* MEDIA QUERIES FOR medium SCREEN 750px */
-
-/* HEADER-CONTAINER  */

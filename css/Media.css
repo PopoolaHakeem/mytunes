@@ -2,21 +2,18 @@
 
 @media only screen and (max-width: 600px) {
   .nav-bar {
-    display: none ;
-
+    display: none;
   }
-  
+
   .menu-icon {
     display: flex !important;
     justify-content: center;
     position: absolute;
     right: 10px;
-    font-size: 50px;
+    font-size: 30px;
     color: #f4f4f4;
     cursor: pointer;
-}
-
-  
+  }
 
   .nav-bar-list {
     font-size: 15px;
@@ -28,7 +25,7 @@
   .header-container {
     justify-content: center;
     align-items: center;
-    padding: 50px 5px ;
+    padding: 50px 5px;
     font-size: medium;
   }
 
@@ -55,12 +52,11 @@
   }
   .paragraph {
     font-size: 15px;
-  padding: 0 5px !important;
+    padding: 0 5px !important;
   }
   .paragraph-2 {
     font-size: 15px;
-  padding: 0 5px !important;
-    
+    padding: 0 5px !important;
   }
   .music-container h2 {
     font-size: 20px;
@@ -107,7 +103,7 @@
     font-size: 15px;
     padding: 0 5px !important;
   }
-  
+
   .giftcard-container h2 {
     font-size: 20px;
     padding: 0 20px;
@@ -120,7 +116,7 @@
   /* FOOTER SECTION  */
 
   .parent {
-    display: flex;
+    display: none !important;
     flex-direction: column;
     font-size: 1px;
   }
@@ -133,6 +129,8 @@
 }
 
 @media only screen and(min-width:601px) and (max-width: 1024px) {
+
+
   .header-container h1 {
     font-size: 40px;
   }
