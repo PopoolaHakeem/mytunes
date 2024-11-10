@@ -237,6 +237,9 @@ footer a {
   color: #f4f4f4;
   padding: 25px 0;
 }
+.muffin-icon {
+  color: turquoise;
+}
 
 .menu-icon {
   display: none;
