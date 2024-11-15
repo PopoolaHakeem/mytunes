@@ -31,15 +31,16 @@
 
   .header-container h1 {
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 50px !important;
   }
   .header-container h2 {
     text-overflow: clip !important;
-    font-size: 30px !important;
+    font-size: 25px !important;
     padding: 15px 0 15px 0 !important;
-    line-height: 40px;
+    /* line-height: 40px; */
   }
   .header-container p {
+    display: none;
     font-size: 22px !important;
     /* line-height: 1.5 !important; */
     padding: 0 5px !important;
