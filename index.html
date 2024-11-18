@@ -10,11 +10,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 
+
+    <style>
+        .menu-icon {
+            display: none;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .menu-icon {
+                display: block;
+            }
+        }
+    </style>
+
 </head>
 <body>
 
+    <div class="mobile-nav">
+        <ul>
+            <li>Overview</li>
+            <li>Music</li>
+            <li>Video</li>
+            <li>Gift Cards</li>
+        </ul>
+    </div>
+
 <div class="nav-bar">
-    <iconify-icon icon="mynaui:menu" class="menu-icon" ></iconify-icon>
+    <h1 class="logo-text">MyTunes</h1>
+    <iconify-icon icon="mynaui:menu" class="menu-icon" id="onclick" ></iconify-icon>
+    <iconify-icon icon="iconoir:cancel" class="cancel-icon"></iconify-icon>
+
     <ul class="nav-bar-list">
         <li><a href="#mytunes">myTunes</a></li>
         <li><a href="#entertainment-container">Overview</a></li>
@@ -184,7 +209,7 @@
 
     </div>
 
-
+<script src="/script.js"></script>
 </body>
 
 </html>
