@@ -15,3 +15,13 @@ cancelicon.onclick = function() {
     cancelicon.style.display = 'none'
     menuicon.style.display = 'block'
 }
+
+var body = document.querySelector('.bodyy')
+var mobilenav = document.querySelector(".mobile-nav");
+
+body.onclick = function() {
+    mobilenav.style.display = 'none'
+    body.style.position = 'cancel'
+    menuicon.style.display = 'block'
+    cancelicon.style.display = 'none'
+}

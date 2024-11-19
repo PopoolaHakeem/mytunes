@@ -268,6 +268,9 @@ footer a {
   border-top: 2px solid #4d4a4a;
   text-align: start;
 }
+.mobile-nav a {
+  color: #fff;
+}
 .mobile-nav ul li {
   color: #f4f4f4;
   padding: 5px 0;
