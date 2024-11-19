@@ -16,7 +16,7 @@ cancelicon.onclick = function() {
     menuicon.style.display = 'block'
 }
 
-var body = document.querySelector('.bodyy')
+var body = document.querySelector('.body')
 var mobilenav = document.querySelector(".mobile-nav");
 
 body.onclick = function() {
