@@ -271,6 +271,10 @@ footer a {
 .mobile-nav a {
   color: #fff;
 }
+.mobile-nav a:hover {
+  background-color: #4d4a4a;
+  padding: 9px  19px ;
+}
 .mobile-nav ul li {
   color: #f4f4f4;
   padding: 9px 0;
