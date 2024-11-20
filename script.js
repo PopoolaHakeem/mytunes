@@ -3,6 +3,9 @@
 var menuicon = document.querySelector("#onclick");
 var mobilenav = document.querySelector(".mobile-nav");
 var cancelicon = document.querySelector(".cancel-icon");
+var body = document.querySelector('.body')
+
+
 
 menuicon.onclick = function() {
     menuicon.style.display = 'none'
@@ -16,12 +19,9 @@ cancelicon.onclick = function() {
     menuicon.style.display = 'block'
 }
 
-var body = document.querySelector('.body')
-var mobilenav = document.querySelector(".mobile-nav");
-
 body.onclick = function() {
     mobilenav.style.display = 'none'
-    body.style.position = 'cancel'
+    body.style.display = 'cancel'
     menuicon.style.display = 'block'
     cancelicon.style.display = 'none'
 }
