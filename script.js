@@ -19,9 +19,9 @@ cancelicon.onclick = function() {
     menuicon.style.display = 'block'
 }
 
-body.onclick = function() {
-    mobilenav.style.display = 'none'
-    body.style.display = 'cancel'
-    menuicon.style.display = 'block'
-    cancelicon.style.display = 'none'
-}
+// body.onclick = function() {
+//     mobilenav.style.display = 'none'
+//     body.style.display = 'cancel'
+//     menuicon.style.display = 'block'
+//     cancelicon.style.display = 'none'
+// }
